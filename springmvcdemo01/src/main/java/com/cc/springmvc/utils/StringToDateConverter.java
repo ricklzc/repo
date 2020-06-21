@@ -22,4 +22,6 @@ public class StringToDateConverter implements Converter<String, Date> {
             throw new RuntimeException("数据转换错误");
         }
     }
+
+    int i =10;
 }
